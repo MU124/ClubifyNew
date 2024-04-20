@@ -1,0 +1,139 @@
+<!-- loader Start -->
+<!-- <div id="loading">
+          <div id="loading-center">
+          </div>
+    </div> -->
+<!-- loader END -->
+
+<div>
+    <div class="account-pages pt-2 pt-sm-5 pb-4 pb-sm-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xxl-4 col-lg-5">
+                    <div class="card">
+
+                        <!-- Logo -->
+                        <div class="card-header pt-4 pb-4 text-center bg-primary">
+                            <a href="#">
+                                <!-- <span><img src="assets/images/SignageMasterWhiteWithout.png" alt="" height="60"></span> -->
+                                <h2 class="text-center  text-dark-50" style="color: white;">CLUBIFY</h2>
+                            </a>
+                        </div>
+
+                        <div class="card-body p-4">
+
+                            <div class="text-center w-75 m-auto">
+                                <h4 class="text-dark-50 text-center pb-0 fw-bold">Sign In</h4>
+                                <p class="text-muted mb-4">Enter your email address and password to access admin panel.
+                                </p>
+                            </div>
+
+                            <form [formGroup]="form" id="form">
+
+                                <div class="mb-3">
+                                    <label for="emailaddress" class="form-label">Email address</label>
+                                    <!-- <input class="form-control" type="email" id="emailaddress" required=""
+                                        placeholder="Enter your email"> -->
+
+                                    <input class=" form-control" type="email" formControlName="Username"
+                                        [ngClass]="{ 'is-invalid': submitted && f['Username'].errors }" />
+                                    <div *ngIf="submitted && f['Username'].errors" class="invalid-feedback">
+                                        <div *ngIf="f['Username'].errors['required']">
+                                            Email is required</div>
+                                        <div *ngIf="f['Username'].errors['email']">
+                                            Please enter a valid email address.</div>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <!-- <a href="pages-recoverpw.html" class="text-muted float-end"><small>Forgot your
+                                            password?</small></a> -->
+                                    <label for="password" class="form-label">Password</label>
+                                    <input class="floating-input form-control" type="password"
+                                        formControlName="Password"
+                                        [ngClass]="{ 'is-invalid': submitted && f['Password'].errors }" />
+                                    <div *ngIf="submitted && f['Password'].errors" class="invalid-feedback">
+                                        <div *ngIf="f['Password'].errors['required']">Password
+                                            is required</div>
+                                        <div *ngIf="f['Password'].errors['minlength']">Password
+                                            must be at least 5
+                                            characters</div>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3 mb-3">
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="checkbox-signin" checked>
+                                        <label class="form-check-label" for="checkbox-signin">Remember me</label>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3 mb-0 text-center">
+                                    <button type="submit" class="btn btn-primary" (click)="login()">Sign
+                                        In</button>
+                                </div>
+
+                            </form>
+                        </div> <!-- end card-body -->
+                    </div>
+                    <!-- end card -->
+
+                    <!-- <div class="row mt-3">
+                        <div class="col-12 text-center">
+                            <p class="text-muted">Don't have an account? <a href="pages-register.html"
+                                    class="text-muted ms-1"><b>Sign Up</b></a></p>
+                        </div> 
+                    </div> -->
+                    <!-- end row -->
+
+                </div> <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+</div>
+<!-- end page -->
+
+
+<!-- <form [formGroup]="form" id="form">
+    <div class="form-group row">
+        <div class="col-lg-12">
+            <div class="floating-label form-group">
+                <div class="floating-label form-group">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="floating-label form-group">
+
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label control-label-1" for="customCheck1">Remember Me</label>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <a class="text-primary float-right">Forgot Password?</a>
+        </div>
+    </div>
+
+</form> -->
+
+<!-- Backend Bundle JavaScript -->
+<!-- <script src="../assets/js/backend-bundle.min.js"></script> -->
+
+<!-- Table Treeview JavaScript -->
+<!-- <script src="../assets/js/table-treeview.js"></script> -->
+
+<!-- Chart Custom JavaScript -->
+<!-- <script src="../assets/js/customizer.js"></script> -->
+
+<!-- Chart Custom JavaScript -->
+<!-- <script async src="../assets/js/chart-custom.js"></script> -->
+
+<!-- app JavaScript -->
+<!-- <script src="../assets/js/app.js"></script> -->

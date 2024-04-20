@@ -1,0 +1,131 @@
+<ngx-spinner bdColor="rgba(51,51,51,0.8)" size="medium" color="#fff" [fullScreen]="true" type="ball-scale-multiple">
+</ngx-spinner>
+
+<div class="account-pages pt-2 pt-sm-5 pb-4 pb-sm-5" *ngIf="!isRegister">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xxl-4 col-lg-5">
+                <div class="card">
+                    <!-- Logo-->
+                    <div class="card-header pt-4 pb-4 text-center bg-primary">
+                        <h2 class="text-center  text-dark-50" style="color: white;">CLUBIFY</h2>
+                    </div>
+
+                    <div class="card-body p-4">
+
+                        <div class="text-center w-75 m-auto">
+                            <h4 class="text-dark-50 text-center mt-0 fw-bold">Membership Registration</h4>
+                            <p class="text-muted mb-4">Don't have an account? Create your account, it takes less than a
+                                minute </p>
+                        </div>
+
+                        <form [formGroup]="form" id="form">
+
+                            <div class="mb-3">
+                                <label for="inptfirst_name" class="form-label">First Name</label>
+                                <input type="tex" class="form-control" id="inptfirst_name"
+                                    placeholder="Enter first name"
+                                    [ngClass]="{ 'is-invalid': submitted && f['first_name'].errors }"
+                                    formControlName="first_name" />
+                                <div *ngIf="submitted && f['first_name'].errors" class="invalid-feedback">
+                                    <div *ngIf="f['first_name'].errors['required']">Please enter first name.</div>
+                                    <!-- <div *ngIf="f['first_name'].errors['pattern']">Only characters required</div>
+                                    <div *ngIf="f['first_name'].errors['minlength']">Branch must be at least
+                                        3 characters</div>
+                                    <div *ngIf="f['first_name'].errors['maxlength']">Branch must not exceed
+                                        20 characters</div> -->
+                                </div>
+                            </div>
+
+
+                            <div class="mb-3">
+                                <label for="inptlast_name" class="form-label">Last Name</label>
+                                <input type="tex" class="form-control" id="inptlast_name" placeholder="Enter last name"
+                                    [ngClass]="{ 'is-invalid': submitted && f['last_name'].errors }"
+                                    formControlName="last_name" />
+                                <div *ngIf="submitted && f['last_name'].errors" class="invalid-feedback">
+                                    <div *ngIf="f['last_name'].errors['required']">Please enter last name.</div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="inptdate_of_birth" class="form-label">Birth Date</label>
+                                <input class="form-control" ID="inptdate_of_birth" type="date"
+                                    [ngClass]="{ 'is-invalid': submitted && f['date_of_birth'].errors }"
+                                    formControlName="date_of_birth">
+                                <div *ngIf="submitted && f['date_of_birth'].errors" class="invalid-feedback">
+                                    <div *ngIf="f['date_of_birth'].errors['required']">Please enter birth date.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="inptemail" class="form-label">Email Address</label>
+                                <input type="tex" class="form-control" id="inptemail" placeholder="Enter your email"
+                                    [ngClass]="{ 'is-invalid': submitted && f['email'].errors }"
+                                    formControlName="email" />
+                                <div *ngIf="submitted && f['email'].errors" class="invalid-feedback">
+                                    <div *ngIf="f['email'].errors['required']">Please enter email.</div>
+                                    <div *ngIf="f['email'].errors['email']">Please enter valid email.</div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="inptpassword" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="inptpassword"
+                                    placeholder="Enter password"
+                                    [ngClass]="{ 'is-invalid': submitted && f['password'].errors }"
+                                    formControlName="password" />
+                                <div *ngIf="submitted && f['password'].errors" class="invalid-feedback">
+                                    <div *ngIf="f['password'].errors['required']">Please enter password.</div>
+                                    <div *ngIf="f['password'].errors['minlength']">Password must be at least 8
+                                        characters long.</div>
+                                </div>
+                            </div>
+                            <div class="mb-3 text-center">
+                                <button class="btn btn-primary" (click)="Register()">Register</button>
+                            </div>
+
+                        </form>
+                    </div> <!-- end card-body -->
+                </div>
+                <!-- end card -->
+
+                <div class="row mt-3">
+                    <div class="col-12 text-center">
+                        <p class="text-muted">Already have account? <a routerLink="Login" class="text-muted ms-1"><b>Log
+                                    In</b></a></p>
+                    </div> <!-- end col-->
+                </div>
+                <!-- end row -->
+
+            </div> <!-- end col -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</div>
+<!-- end page -->
+
+<div class="account-pages pt-2 pt-sm-5 pb-4 pb-sm-5" *ngIf="isRegister">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xxl-4 col-lg-5">
+                <div class="card">
+                    <div class="card-header pt-4 pb-4 text-center bg-primary">
+                        <h2 class="text-center  text-dark-50" style="color: white;">CLUBIFY</h2>
+                    </div>
+                    <img src="assets/images/Thank you.jpg" alt="">
+                    <h4 class="text-center">Registration was successful. Please wait for admin approval.</h4>
+                    <p class="text-muted text-center"> <a routerLink="Login" class="text-muted ms-1"><b>Log
+                                In</b></a> </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer footer-alt">
+    Powered by <a target="_blank" href="https://aurrotech.com/">Aurrotech</a>
+</footer>

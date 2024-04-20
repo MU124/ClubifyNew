@@ -1,0 +1,87 @@
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\appsettings.Development.json
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\appsettings.json
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\FedhaPoaAPI.exe
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\FedhaPoaAPI.deps.json
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\FedhaPoaAPI.runtimeconfig.json
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\FedhaPoaAPI.runtimeconfig.dev.json
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\FedhaPoaAPI.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\ref\FedhaPoaAPI.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\FedhaPoaAPI.pdb
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.csproj.AssemblyReference.cache
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.GeneratedMSBuildEditorConfig.editorconfig
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.AssemblyInfoInputs.cache
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.AssemblyInfo.cs
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.csproj.CoreCompileInputs.cache
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.MvcApplicationPartsAssemblyInfo.cs
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.MvcApplicationPartsAssemblyInfo.cache
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\obj\Debug\net5.0\scopedcss\bundle\FedhaPoaAPI.styles.css
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\obj\Debug\net5.0\staticwebassets\FedhaPoaAPI.StaticWebAssets.Manifest.cache
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.RazorTargetAssemblyInfo.cache
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.csproj.CopyComplete
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\obj\Debug\net5.0\ref\FedhaPoaAPI.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.pdb
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.genruntimeconfig.cache
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\System.Data.SqlClient.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\DaeConfiguration.dll
+M:\Project\FedhaPOA\TECHNICAL\CODE\FedhaPoaAPI\FedhaPoaAPI\bin\Debug\net5.0\DaeConfiguration.pdb
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\appsettings.Development.json
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\appsettings.json
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\FedhaPoaAPI.exe
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\FedhaPoaAPI.deps.json
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\FedhaPoaAPI.runtimeconfig.json
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\FedhaPoaAPI.runtimeconfig.dev.json
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\FedhaPoaAPI.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\FedhaPoaAPI.pdb
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\DaeConfiguration.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\bin\Debug\net5.0\DaeConfiguration.pdb
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.csproj.AssemblyReference.cache
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.AssemblyInfoInputs.cache
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.AssemblyInfo.cs
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.csproj.CoreCompileInputs.cache
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\obj\Debug\net5.0\scopedcss\bundle\FedhaPoaAPI.styles.css
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\obj\Debug\net5.0\staticwebassets\FedhaPoaAPI.StaticWebAssets.Manifest.cache
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.RazorTargetAssemblyInfo.cache
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.csproj.CopyComplete
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\obj\Debug\net5.0\refint\FedhaPoaAPI.dll
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.pdb
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\obj\Debug\net5.0\FedhaPoaAPI.genruntimeconfig.cache
+D:\Workplace\Blank APS.net core 5.0  API template\FedhaPoaAPI\obj\Debug\net5.0\ref\FedhaPoaAPI.dll

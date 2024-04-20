@@ -1,0 +1,16 @@
+<form [formGroup]="form" id="form">
+
+    <div class="mb-3">
+        <label for="inptCation" class="form-label">File</label>
+        <!-- $any($event.target).files -->
+        <input type="file" #FileInput name="file" (change)="handelFile($event)" class="form-control" id="inptFile"
+            accept="image/png, image/gif, image/jpeg, image/jpg, video/mp4, video/mov, video/wmv, video/avi, video/mkv, video/mpeg-2" />
+        <p *ngIf="showFileName" class="text-muted font-14">{{form.get('File_Name')?.value}}</p>
+        <p class="pt-3" *ngIf="ProgressValue">
+            <ngb-progressbar type="info" [value]="ProgressValue" [striped]="true"
+                [animated]="true"><i>{{ProgressValue}}%</i></ngb-progressbar>
+        </p>
+    </div>
+
+    <button class="btn btn-primary" (click)="btnClick()">Upload</button>
+</form>

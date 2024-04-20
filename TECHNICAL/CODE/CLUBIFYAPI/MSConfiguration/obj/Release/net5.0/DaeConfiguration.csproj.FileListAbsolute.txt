@@ -1,0 +1,12 @@
+M:\Project\Area Online\TECHNICAL\CODE\AreaOnlineAPI\GeeksConfiguration\bin\Release\net5.0\DaeConfiguration.deps.json
+M:\Project\Area Online\TECHNICAL\CODE\AreaOnlineAPI\GeeksConfiguration\bin\Release\net5.0\DaeConfiguration.dll
+M:\Project\Area Online\TECHNICAL\CODE\AreaOnlineAPI\GeeksConfiguration\bin\Release\net5.0\ref\DaeConfiguration.dll
+M:\Project\Area Online\TECHNICAL\CODE\AreaOnlineAPI\GeeksConfiguration\bin\Release\net5.0\DaeConfiguration.pdb
+M:\Project\Area Online\TECHNICAL\CODE\AreaOnlineAPI\GeeksConfiguration\obj\Release\net5.0\DaeConfiguration.csproj.AssemblyReference.cache
+M:\Project\Area Online\TECHNICAL\CODE\AreaOnlineAPI\GeeksConfiguration\obj\Release\net5.0\DaeConfiguration.GeneratedMSBuildEditorConfig.editorconfig
+M:\Project\Area Online\TECHNICAL\CODE\AreaOnlineAPI\GeeksConfiguration\obj\Release\net5.0\DaeConfiguration.AssemblyInfoInputs.cache
+M:\Project\Area Online\TECHNICAL\CODE\AreaOnlineAPI\GeeksConfiguration\obj\Release\net5.0\DaeConfiguration.AssemblyInfo.cs
+M:\Project\Area Online\TECHNICAL\CODE\AreaOnlineAPI\GeeksConfiguration\obj\Release\net5.0\DaeConfiguration.csproj.CoreCompileInputs.cache
+M:\Project\Area Online\TECHNICAL\CODE\AreaOnlineAPI\GeeksConfiguration\obj\Release\net5.0\DaeConfiguration.dll
+M:\Project\Area Online\TECHNICAL\CODE\AreaOnlineAPI\GeeksConfiguration\obj\Release\net5.0\ref\DaeConfiguration.dll
+M:\Project\Area Online\TECHNICAL\CODE\AreaOnlineAPI\GeeksConfiguration\obj\Release\net5.0\DaeConfiguration.pdb

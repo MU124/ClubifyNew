@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Clubify</title>
+  <base href="/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+  <meta content="Coderthemes" name="author" />
+  <!-- App favicon -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- third party css -->
+  <link href="assets/css/vendor/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
+  <!-- third party css end -->
+
+  <!-- App css -->
+  <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style" />
+  <!-- <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style" /> -->
+</head>
+
+<body class="loading" data-layout-config='{"leftSideBarTheme":"dark","layoutBoxed":false, "leftSidebarCondensed":false, 
+  "leftSidebarScrollable":false,"darkMode":false, "showRightSidebarOnStart": true}'>
+
+  <app-root></app-root>
+
+  <!-- bundle -->
+  <script src="assets/js/vendor.min.js"></script>
+  <script src="assets/js/app.min.js"></script>
+
+  <!-- third party js -->
+  <script src="assets/js/vendor/apexcharts.min.js"></script>
+  <script src="assets/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
+  <script src="assets/js/vendor/jquery-jvectormap-world-mill-en.js"></script>
+  <!-- third party js ends -->
+
+  <!-- demo app -->
+  <script src="assets/js/pages/demo.dashboard.js"></script>
+  <!-- end demo js-->
+  <script src="assets/js/custom/modal.js"></script>
+
+  <!-- plugin js -->
+  <script src="assets/js/vendor/dropzone.min.js"></script>
+  <script src="assets/js/ui/component.fileupload.js"></script>
+
+  <script src="assets/js/vendor/dragula.min.js"></script>
+  <script src="assets/js/ui/component.dragula.js"></script>
+
+
+  <script>
+    var galleryarray = [];
+    var x = document.getElementsByClassName("mySlides");
+    var video;
+    let incomingMessage;
+    var curimg;
+    var timeout = 1000;
+    var rcCurimg = false;
+    var sliding;
+
+    function init() {
+      console.log('init called')
+      x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+
+        if (x[i].tagName === "VIDEO") {
+
+          video = x[i];
+          x[i].onplay = function () {
+            clearInterval(sliding);
+
+          };
+          x[i].onended = function () {
+            sliding = setInterval(rotateimages, 5000);
+            rotateimages();
+          };
+        }
+        galleryarray.push(x[i]);
+      }
+
+      curimg = -1;
+
+
+      sliding = setInterval(rotateimages, 5000);
+      rotateimages();
+
+      //FullScreen won't work in jsFiddle's iframe
+
+      document.getElementById('slideshow').onclick = function () {
+        if (this.requestFullscreen) {
+          this.requestFullscreen();
+        } else if (this.msRequestFullscreen) {
+          this.msRequestFullscreen();
+        } else if (this.mozRequestFullScreen) {
+          this.mozRequestFullScreen();
+        } else if (this.webkitRequestFullscreen) {
+          this.webkitRequestFullscreen();
+        }
+      }
+    }
+
+    function forImage(sec) {
+      clearInterval(sliding);
+      var timeout = sec * 1000;
+      setTimeout(rotateimages, timeout);
+    }
+
+    function rotateimages() {
+      //$("#slideshow").fadeOut("slow");
+      setTimeout(function () {
+
+        curimg = (curimg < galleryarray.length - 1) ? curimg + 1 : 0
+
+        document.getElementById('slideshow').innerHTML = '';
+        galleryarray[curimg].style.width = "100%";
+        galleryarray[curimg].style.height = "100%";
+        document.getElementById('slideshow').appendChild(galleryarray[curimg]);
+
+        if (galleryarray[curimg].tagName === "VIDEO") {
+          galleryarray[curimg].play();
+        }
+        else {
+          var ct = galleryarray[curimg].getAttribute("sec");
+          forImage(ct);
+        }
+
+        // $("#slideshow").fadeIn("slow");
+      }, 1000);
+    }
+
+
+    window.onload = function () {
+      // init();
+    }
+
+  </script>
+
+
+  <!-- <script>
+
+    var galleryarray = [];
+    var x;
+    var video;
+    var curimg;
+    var timeout = 1000;
+    var sliding;
+
+    function initializeSlideshow() {
+      x = document.getElementsByClassName("mySlides");
+      galleryarray = [];
+      curimg = -1;
+
+      for (var i = 0; i < x.length; i++) {
+        if (x[i].tagName === "VIDEO") {
+          video = x[i];
+          x[i].onplay = function () {
+            clearInterval(sliding);
+          };
+          x[i].onended = function () {
+            sliding = setInterval(rotateimages, 5000);
+            rotateimages();
+          };
+        }
+        galleryarray.push(x[i]);
+      }
+
+      sliding = setInterval(rotateimages, 5000);
+      rotateimages();
+
+      document.getElementById('slideshow').onclick = function () {
+        if (this.requestFullscreen) {
+          this.requestFullscreen();
+        } else if (this.msRequestFullscreen) {
+          this.msRequestFullscreen();
+        } else if (this.mozRequestFullScreen) {
+          this.mozRequestFullScreen();
+        } else if (this.webkitRequestFullscreen) {
+          this.webkitRequestFullscreen();
+        }
+      }
+    }
+
+    function stopSlideshow() {
+      clearInterval(sliding);
+    }
+
+    function forImage(sec) {
+      clearInterval(sliding);
+      var timeout = sec * 1000;
+      setTimeout(rotateimages, timeout);
+    }
+
+    function rotateimages() {
+      var slideshowContainer = document.getElementById('slideshow');
+      slideshowContainer.style.opacity = 0;
+
+      setTimeout(function () {
+        curimg = (curimg < galleryarray.length - 1) ? curimg + 1 : 0;
+
+        slideshowContainer.innerHTML = '';
+        galleryarray[curimg].style.width = "100%";
+        galleryarray[curimg].style.height = "100%";
+        slideshowContainer.appendChild(galleryarray[curimg]);
+
+        if (galleryarray[curimg].tagName === "VIDEO") {
+          galleryarray[curimg].play();
+        } else {
+          var ct = galleryarray[curimg].getAttribute("sec");
+          forImage(ct);
+        }
+
+        slideshowContainer.style.opacity = 1;
+      }, 1000);
+    }
+
+    window.onload = function () {
+
+    };
+
+  </script> -->
+</body>
+
+</html>

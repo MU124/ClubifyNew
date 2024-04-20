@@ -1,0 +1,9 @@
+<div *ngIf="service.isAuthenticated && !isSingle">
+  <app-layout></app-layout>
+</div>
+
+<div *ngIf="service.isAuthenticated == false && !isSingle">
+  <app-login></app-login>
+</div>
+
+<app-membership-registration *ngIf="isSingle && currentUrl == '/Registration'"></app-membership-registration>

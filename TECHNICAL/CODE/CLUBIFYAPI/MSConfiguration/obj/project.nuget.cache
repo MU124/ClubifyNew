@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XhwIwbbru/gXTV5i+ZgvinQzEo4f6rXLu+8J9dwDiF/i2KyJOre5ssfutV4TUFXhdeNAQITobi2t09nkGSbH5Q==",
+  "success": true,
+  "projectFilePath": "M:\\Workplace\\Project\\Clubify\\TECHNICAL\\CODE\\CLUBIFYAPI\\MSConfiguration\\MSConfiguration.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mayur\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "C:\\Users\\mayur\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\mayur\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

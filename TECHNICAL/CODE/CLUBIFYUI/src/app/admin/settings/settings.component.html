@@ -1,0 +1,191 @@
+<ngx-spinner bdColor="rgba(51,51,51,0.8)" size="medium" color="#fff" [fullScreen]="true" type="ball-scale-multiple">
+</ngx-spinner>
+
+<!-- start page title -->
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box">
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item"><a routerLink="/Home">Home</a></li>
+                    <li class="breadcrumb-item active">Settings</li>
+                </ol>
+            </div>
+            <h4 class="page-title">Settings</h4>
+        </div>
+    </div>
+</div>
+<!-- end page title -->
+
+
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="row mb-2">
+                    <div class="col-sm-4">
+                        <!-- <button type="button" class="btn btn-primary mb-2" id="btnAddRegion"><i
+                                class="mdi mdi-plus-circle me-2"></i>Add Region</button> -->
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="text-sm-end">
+                            <!-- <button type="button" class="btn btn-success mb-2 me-1"><i
+                                    class="mdi mdi-cog-outline"></i></button> -->
+                            <!-- <button type="button" class="btn btn-light mb-2 me-1">Import</button>
+                            <button type="button" class="btn btn-light mb-2">Export</button> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <form [formGroup]="form" id="form">
+                        <div class="col-12 col-md-6">
+                            <div class="mb-3">
+                                <label for="inptclub_name" class="form-label">Club Name</label>
+                                <input type="tex" class="form-control" id="inptclub_name" placeholder="Enter region"
+                                    [ngClass]="{ 'is-invalid': submitted && f['club_name'].errors }"
+                                    formControlName="club_name" />
+                                <div *ngIf="submitted && f['club_name'].errors" class="invalid-feedback">
+                                    <div *ngIf="f['club_name'].errors['required']">Please enter club name.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="mb-3">
+                                    <div class="mb-3">
+                                        <label for="inptCation" class="form-label">Logo</label>
+                                        <!-- $any($event.target).files -->
+                                        <input type="file" #FileInput name="file" (change)="handelFile($event)"
+                                            class="form-control" id="inptFile"
+                                            accept="image/png, image/gif, image/jpeg, image/jpg, video/mp4, video/mov, video/wmv, video/avi, video/mkv, video/mpeg-2" />
+                                        <p *ngIf="showFileName" class="text-muted font-14">
+                                            {{form.get('File_Name')?.value}}
+                                        </p>
+                                        <p class="pt-3" *ngIf="ProgressValue">
+                                            <ngb-progressbar type="info" [value]="ProgressValue" [striped]="true"
+                                                [animated]="true"><i>{{ProgressValue}}%</i></ngb-progressbar>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <img [src]="logoPath + logoName" alt="" height="120px">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="mb-3">
+                                    <label for="inptemail" class="form-label">Email</label>
+                                    <input type="tex" class="form-control" id="inptemail" placeholder="Enter email"
+                                        [ngClass]="{ 'is-invalid': submitted && f['email'].errors }"
+                                        formControlName="email" />
+                                    <div *ngIf="submitted && f['email'].errors" class="invalid-feedback">
+                                        <div *ngIf="f['email'].errors['required']">Please enter email.</div>
+                                        <div *ngIf="f['email'].errors['email']">Please enter valid email.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="mb-3">
+                                    <label for="inptnumber" class="form-label">Phone Number</label>
+                                    <input type="tex" class="form-control" id="inptnumber"
+                                        placeholder="Enter phone number"
+                                        [ngClass]="{ 'is-invalid': submitted && f['number'].errors }"
+                                        formControlName="number" />
+                                    <div *ngIf="submitted && f['number'].errors" class="invalid-feedback">
+                                        <div *ngIf="f['number'].errors['required']">Please enter phone number.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12">
+                            <div class="mb-3">
+                                <label for="inptnumber" class="form-label">About US</label>
+
+                                <textarea class="form-control" id="about_us" placeholder="Enter about us"
+                                    formControlName="about_us" rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="mb-3">
+                                    <label for="inptsmtp_username" class="form-label">SMTP User Name</label>
+                                    <input type="tex" class="form-control" id="inptsmtp_username"
+                                        placeholder="SMTP user name"
+                                        [ngClass]="{ 'is-invalid': submitted && f['smtp_username'].errors }"
+                                        formControlName="smtp_username" />
+                                    <div *ngIf="submitted && f['smtp_username'].errors" class="invalid-feedback">
+                                        <div *ngIf="f['smtp_username'].errors['required']">Please enter SMTP user name.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="mb-3">
+                                    <label for="inptsmtp_password" class="form-label">SMTP Password</label>
+                                    <input type="password" class="form-control" id="inptsmtp_password"
+                                        placeholder="SMTP Password"
+                                        [ngClass]="{ 'is-invalid': submitted && f['smtp_password'].errors }"
+                                        formControlName="smtp_password" />
+                                    <div *ngIf="submitted && f['smtp_password'].errors" class="invalid-feedback">
+                                        <div *ngIf="f['smtp_password'].errors['required']">Please enter SMTP Password.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="mb-3">
+                                    <label for="inptsmtp_server_address" class="form-label">SMTP Server</label>
+                                    <input type="tex" class="form-control" id="inptsmtp_server_address"
+                                        placeholder="SMTP Server"
+                                        [ngClass]="{ 'is-invalid': submitted && f['smtp_server_address'].errors }"
+                                        formControlName="smtp_server_address" />
+                                    <div *ngIf="submitted && f['smtp_server_address'].errors" class="invalid-feedback">
+                                        <div *ngIf="f['smtp_server_address'].errors['required']">Please enter SMTP
+                                            server
+                                            details.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="mb-3">
+                                    <label for="inptsmtp_port" class="form-label">SMTP Port</label>
+                                    <input type="tex" class="form-control" id="inptsmtp_port" placeholder="SMTP Port"
+                                        [ngClass]="{ 'is-invalid': submitted && f['smtp_port'].errors }"
+                                        formControlName="smtp_port" />
+                                    <div *ngIf="submitted && f['smtp_port'].errors" class="invalid-feedback">
+                                        <div *ngIf="f['smtp_port'].errors['required']">Please enter SMTP port.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input ID="Muse_ssl_tls" type="checkbox" Class="form-check-input"
+                                    formControlName="use_ssl_tls" />
+                                <label class="form-check-label" id="MisActive" for="checkmeout0">SSL TLS</label>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" (click)="saveSetting()">Save</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

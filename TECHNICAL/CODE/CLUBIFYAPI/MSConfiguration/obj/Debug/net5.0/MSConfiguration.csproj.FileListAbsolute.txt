@@ -1,0 +1,46 @@
+M:\Workplace\Project\wavez link admin\MSConfiguration\bin\Debug\net5.0\MSConfiguration.deps.json
+M:\Workplace\Project\wavez link admin\MSConfiguration\bin\Debug\net5.0\MSConfiguration.dll
+M:\Workplace\Project\wavez link admin\MSConfiguration\bin\Debug\net5.0\ref\MSConfiguration.dll
+M:\Workplace\Project\wavez link admin\MSConfiguration\bin\Debug\net5.0\MSConfiguration.pdb
+M:\Workplace\Project\wavez link admin\MSConfiguration\obj\Debug\net5.0\MSConfiguration.GeneratedMSBuildEditorConfig.editorconfig
+M:\Workplace\Project\wavez link admin\MSConfiguration\obj\Debug\net5.0\MSConfiguration.AssemblyInfoInputs.cache
+M:\Workplace\Project\wavez link admin\MSConfiguration\obj\Debug\net5.0\MSConfiguration.AssemblyInfo.cs
+M:\Workplace\Project\wavez link admin\MSConfiguration\obj\Debug\net5.0\MSConfiguration.csproj.CoreCompileInputs.cache
+M:\Workplace\Project\wavez link admin\MSConfiguration\obj\Debug\net5.0\MSConfiguration.dll
+M:\Workplace\Project\wavez link admin\MSConfiguration\obj\Debug\net5.0\ref\MSConfiguration.dll
+M:\Workplace\Project\wavez link admin\MSConfiguration\obj\Debug\net5.0\MSConfiguration.pdb
+M:\Workplace\Project\Wavez\MSConfiguration\bin\Debug\net5.0\MSConfiguration.deps.json
+M:\Workplace\Project\Wavez\MSConfiguration\bin\Debug\net5.0\MSConfiguration.dll
+M:\Workplace\Project\Wavez\MSConfiguration\bin\Debug\net5.0\ref\MSConfiguration.dll
+M:\Workplace\Project\Wavez\MSConfiguration\bin\Debug\net5.0\MSConfiguration.pdb
+M:\Workplace\Project\Wavez\MSConfiguration\obj\Debug\net5.0\MSConfiguration.GeneratedMSBuildEditorConfig.editorconfig
+M:\Workplace\Project\Wavez\MSConfiguration\obj\Debug\net5.0\MSConfiguration.AssemblyInfoInputs.cache
+M:\Workplace\Project\Wavez\MSConfiguration\obj\Debug\net5.0\MSConfiguration.AssemblyInfo.cs
+M:\Workplace\Project\Wavez\MSConfiguration\obj\Debug\net5.0\MSConfiguration.csproj.CoreCompileInputs.cache
+M:\Workplace\Project\Wavez\MSConfiguration\obj\Debug\net5.0\MSConfiguration.dll
+M:\Workplace\Project\Wavez\MSConfiguration\obj\Debug\net5.0\ref\MSConfiguration.dll
+M:\Workplace\Project\Wavez\MSConfiguration\obj\Debug\net5.0\MSConfiguration.pdb
+M:\Workplace\Project\Wavez\TECHNICAL\MSConfiguration\bin\Debug\net5.0\MSConfiguration.deps.json
+M:\Workplace\Project\Wavez\TECHNICAL\MSConfiguration\bin\Debug\net5.0\MSConfiguration.dll
+M:\Workplace\Project\Wavez\TECHNICAL\MSConfiguration\bin\Debug\net5.0\MSConfiguration.pdb
+M:\Workplace\Project\Wavez\TECHNICAL\MSConfiguration\obj\Debug\net5.0\MSConfiguration.GeneratedMSBuildEditorConfig.editorconfig
+M:\Workplace\Project\Wavez\TECHNICAL\MSConfiguration\obj\Debug\net5.0\MSConfiguration.AssemblyInfoInputs.cache
+M:\Workplace\Project\Wavez\TECHNICAL\MSConfiguration\obj\Debug\net5.0\MSConfiguration.AssemblyInfo.cs
+M:\Workplace\Project\Wavez\TECHNICAL\MSConfiguration\obj\Debug\net5.0\MSConfiguration.csproj.CoreCompileInputs.cache
+M:\Workplace\Project\Wavez\TECHNICAL\MSConfiguration\obj\Debug\net5.0\MSConfiguration.dll
+M:\Workplace\Project\Wavez\TECHNICAL\MSConfiguration\obj\Debug\net5.0\ref\MSConfiguration.dll
+M:\Workplace\Project\Wavez\TECHNICAL\MSConfiguration\obj\Debug\net5.0\MSConfiguration.pdb
+M:\Workplace\Project\Wavez\TECHNICAL\MSConfiguration\obj\Debug\net5.0\MSConfiguration.csproj.AssemblyReference.cache
+M:\Workplace\Project\Wavez\TECHNICAL\MSConfiguration\obj\Debug\net5.0\refint\MSConfiguration.dll
+M:\Workplace\Project\Clubify\TECHNICAL\CODE\CLUBIFYAPI\MSConfiguration\bin\Debug\net5.0\MSConfiguration.deps.json
+M:\Workplace\Project\Clubify\TECHNICAL\CODE\CLUBIFYAPI\MSConfiguration\bin\Debug\net5.0\MSConfiguration.dll
+M:\Workplace\Project\Clubify\TECHNICAL\CODE\CLUBIFYAPI\MSConfiguration\bin\Debug\net5.0\MSConfiguration.pdb
+M:\Workplace\Project\Clubify\TECHNICAL\CODE\CLUBIFYAPI\MSConfiguration\obj\Debug\net5.0\MSConfiguration.csproj.AssemblyReference.cache
+M:\Workplace\Project\Clubify\TECHNICAL\CODE\CLUBIFYAPI\MSConfiguration\obj\Debug\net5.0\MSConfiguration.GeneratedMSBuildEditorConfig.editorconfig
+M:\Workplace\Project\Clubify\TECHNICAL\CODE\CLUBIFYAPI\MSConfiguration\obj\Debug\net5.0\MSConfiguration.AssemblyInfoInputs.cache
+M:\Workplace\Project\Clubify\TECHNICAL\CODE\CLUBIFYAPI\MSConfiguration\obj\Debug\net5.0\MSConfiguration.AssemblyInfo.cs
+M:\Workplace\Project\Clubify\TECHNICAL\CODE\CLUBIFYAPI\MSConfiguration\obj\Debug\net5.0\MSConfiguration.csproj.CoreCompileInputs.cache
+M:\Workplace\Project\Clubify\TECHNICAL\CODE\CLUBIFYAPI\MSConfiguration\obj\Debug\net5.0\MSConfiguration.dll
+M:\Workplace\Project\Clubify\TECHNICAL\CODE\CLUBIFYAPI\MSConfiguration\obj\Debug\net5.0\refint\MSConfiguration.dll
+M:\Workplace\Project\Clubify\TECHNICAL\CODE\CLUBIFYAPI\MSConfiguration\obj\Debug\net5.0\MSConfiguration.pdb
+M:\Workplace\Project\Clubify\TECHNICAL\CODE\CLUBIFYAPI\MSConfiguration\obj\Debug\net5.0\ref\MSConfiguration.dll
